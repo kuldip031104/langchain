@@ -1,6 +1,10 @@
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import PromptTemplate
-model = ChatGoogleGenerativeAI(model="gemini-2.5-flash",google_api_key="AIzaSyDpiemZryDYiJs8EtPLBZT4mt1ogos-kBw")
+from dotenv import load_dotenv
+
+load_dotenv()
+
+model = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 user_input= str(input("Enter the text:"))
 
 template = PromptTemplate(
