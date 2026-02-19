@@ -1,0 +1,9 @@
+Artificial Intelligence (AI) is the simulation of human intelligence in machines.
+Machine Learning (ML) is a subset of AI that enables systems to learn from data.
+Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers.
+
+LangChain is a framework used to build applications powered by large language models (LLMs).
+It helps developers create chatbots, question-answering systems, and AI agents.
+
+Retrieval-Augmented Generation (RAG) combines vector search with LLMs to provide more accurate and context-aware responses.
+Vector databases like FAISS and Chroma are commonly used in RAG systems.
